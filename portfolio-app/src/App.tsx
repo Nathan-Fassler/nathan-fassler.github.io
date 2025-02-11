@@ -27,7 +27,12 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+        <h1 className="text-4xl font-bold text-blue-600">TailwindCSS is Working!</h1>
+        <p className="mt-4 text-gray-700">Now you can start building with Tailwind.</p>
+      </div>
     </div>
+    
   )
 }
 
