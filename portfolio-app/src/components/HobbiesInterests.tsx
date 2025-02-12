@@ -4,6 +4,8 @@ import InfoCard from "./InfoCard";
 import Job1Image from "../assets/Job1.png";
 import PC from "../assets/PC.jpg";
 import Space from "../assets/Space.jpg";
+import Gym from "../assets/Gym.jpg";
+import Book from "../assets/Book.jpg";
 
 const HobbiesInterests: React.FC = () => {
     return (
@@ -25,16 +27,16 @@ const HobbiesInterests: React.FC = () => {
             linkUrl="https://www.space.com/"
             />
             <InfoCard
-            title="Hobby 3"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus rhoncus justo."
-            imageUrl={Job1Image}
-            linkUrl="https://example.com/job1"
+            title="Weightlifting"
+            description="I have been weightlifting for over 5 years. I enjoy the physical and mental benefits of weightlifting."
+            imageUrl={Gym}
+            linkUrl="https://www.youtube.com/@JeffNippard"
             />
             <InfoCard
-            title="Hobby 4"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus rhoncus justo."
-            imageUrl={Job1Image}
-            linkUrl="https://example.com/job1"
+            title="Reading"
+            description="I started reading books during my childhood, and it's still one of my favourite pastimes. My favourite series is The Stormlight Archive."
+            imageUrl={Book}
+            linkUrl="https://en.wikipedia.org/wiki/The_Stormlight_Archive"
             />
         </div>
         </section>
