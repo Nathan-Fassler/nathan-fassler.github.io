@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import WorkExperience from "./components/WorkExperience";
 import HobbiesInterests from "./components/HobbiesInterests";
+import Info from "./components/Info";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
         <About />
         <WorkExperience />
         <HobbiesInterests />
+        <Info />
 
     </div>
    
