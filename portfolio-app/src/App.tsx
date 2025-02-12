@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import WorkExperience from "./components/WorkExperience";
+import HobbiesInterests from "./components/HobbiesInterests";
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
         <Navbar />
         <About />
         <WorkExperience />
+        <HobbiesInterests />
 
     </div>
    
