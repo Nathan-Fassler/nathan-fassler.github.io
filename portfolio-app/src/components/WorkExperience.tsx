@@ -2,9 +2,10 @@ import React from "react";
 import SectionHeader from "./SectionHeader";
 import InfoCard from "./InfoCard";
 
-// Import images from the assets folder
 import Job1Image from "../assets/Job1.png";
 import Job2Image from "../assets/Job2.png";
+import Pizza from "../assets/Pizza.jpg"
+import Warehouse from "../assets/Warehouse.jpg"
 
 const WorkExperience: React.FC = () => {
   return (
@@ -14,16 +15,16 @@ const WorkExperience: React.FC = () => {
       {/* Job Cards Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <InfoCard
-          title="Job 1"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra mauris porta."
-          imageUrl={Job1Image}
-          linkUrl="https://example.com/job1"
+          title="Boston Pizza"
+          description="I learned how to prioritize tasks, work under pressure, and collaborate in a team environment."
+          imageUrl={Pizza}
+          linkUrl="https://bostonpizza.com/en/index.html"
         />
         <InfoCard
-          title="Job 2"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus rhoncus justo."
-          imageUrl={Job2Image}
-          linkUrl="https://example.com/job2"
+          title="Best Buy Warehouse"
+          description="I learned the importance of structural operational workflows in improving efficiency."
+          imageUrl={Warehouse}
+          linkUrl="https://www.bestbuy.ca/en-ca"
         />
       </div>
     </section>
