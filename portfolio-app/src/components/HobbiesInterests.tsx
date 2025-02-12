@@ -2,6 +2,8 @@ import React from "react";
 import SectionHeader from "./SectionHeader";
 import InfoCard from "./InfoCard";
 import Job1Image from "../assets/Job1.png";
+import PC from "../assets/PC.jpg";
+import Space from "../assets/Space.jpg";
 
 const HobbiesInterests: React.FC = () => {
     return (
@@ -11,16 +13,16 @@ const HobbiesInterests: React.FC = () => {
         {/* Hobbies & Interests Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <InfoCard
-            title="Hobby 1"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra mauris porta."
-            imageUrl={Job1Image}
-            linkUrl="https://example.com/job1"
+            title="PC Hardware & Building"
+            description="I enjoy learning about PC hardware, especially CPU and GPU architecture. I also enjoy building PCs—mine is like the Ship of Theseus."
+            imageUrl={PC}
+            linkUrl="https://www.youtube.com/@LinusTechTips"
             />
             <InfoCard
-            title="Hobby 2"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus rhoncus justo."
-            imageUrl={Job1Image}
-            linkUrl="https://example.com/job1"
+            title="Space"
+            description="I am facinated by space, and follow the latest news on astronomy, space exploration, and rocket launches."
+            imageUrl={Space}
+            linkUrl="https://www.space.com/"
             />
             <InfoCard
             title="Hobby 3"
