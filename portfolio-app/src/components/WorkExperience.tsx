@@ -1,6 +1,8 @@
 import React from "react";
 import SectionHeader from "./SectionHeader";
 import InfoCard from "./InfoCard";
+import Job1Image from "../assets/Job1.png";
+import Job2Image from "../assets/Job2.png";
 
 const WorkExperience: React.FC = () => {
   return (
@@ -12,12 +14,12 @@ const WorkExperience: React.FC = () => {
         <InfoCard
           title="Job 1"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra mauris porta."
-          imageUrl="https://via.placeholder.com/300x200"
+          imageUrl={Job1Image}
         />
         <InfoCard
           title="Job 2"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus rhoncus justo."
-          imageUrl="https://via.placeholder.com/300x200"
+          imageUrl={Job2Image}
         />
       </div>
     </section>
