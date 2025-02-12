@@ -1,6 +1,8 @@
 import React from "react";
 import SectionHeader from "./SectionHeader";
 import InfoCard from "./InfoCard";
+
+// Import images from the assets folder
 import Job1Image from "../assets/Job1.png";
 import Job2Image from "../assets/Job2.png";
 
@@ -15,11 +17,13 @@ const WorkExperience: React.FC = () => {
           title="Job 1"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra mauris porta."
           imageUrl={Job1Image}
+          linkUrl="https://example.com/job1"
         />
         <InfoCard
           title="Job 2"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus rhoncus justo."
           imageUrl={Job2Image}
+          linkUrl="https://example.com/job2"
         />
       </div>
     </section>
