@@ -7,7 +7,7 @@ import Info from "./components/Info";
 function App() {
 
   return (
-    <div className="bg-teal-50">
+    <div className="bg-lightcyan text-gunmetal">
         <Navbar />
         <About />
         <WorkExperience />
