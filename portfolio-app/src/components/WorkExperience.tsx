@@ -18,12 +18,14 @@ const WorkExperience: React.FC = () => {
           title="Boston Pizza"
           description="I learned how to prioritize tasks, work under pressure, and collaborate in a team environment."
           imageUrl={Pizza}
+          altText="Pepperoni pizza on a table"
           linkUrl="https://bostonpizza.com/en/index.html"
         />
         <InfoCard
           title="Best Buy Warehouse"
           description="I learned the importance of operational workflows in improving efficiency."
           imageUrl={Warehouse}
+          altText="Interior of a warehouse"
           linkUrl="https://www.bestbuy.ca/en-ca"
         />
       </div>
