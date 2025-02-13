@@ -1,7 +1,7 @@
 import React from "react";
 import SectionHeader from "./SectionHeader";
 import InfoCard from "./InfoCard";
-import Job1Image from "../assets/Job1.png";
+
 import PC from "../assets/PC.jpg";
 import Space from "../assets/Space.jpg";
 import Gym from "../assets/Gym.jpg";

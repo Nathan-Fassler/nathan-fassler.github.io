@@ -1,9 +1,6 @@
 import React from "react";
 import SectionHeader from "./SectionHeader";
 import InfoCard from "./InfoCard";
-
-import Job1Image from "../assets/Job1.png";
-import Job2Image from "../assets/Job2.png";
 import Pizza from "../assets/Pizza.jpg"
 import Warehouse from "../assets/Warehouse.jpg"
 
