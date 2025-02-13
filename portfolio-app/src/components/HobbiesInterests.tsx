@@ -25,7 +25,7 @@ const HobbiesInterests: React.FC = () => {
             title="Space"
             description="I am facinated by space, and follow the latest news on astronomy, space exploration, and rocket launches."
             imageUrl={Space}
-            altText="Earth wuth a galaxy in the background"
+            altText="Earth with a galaxy in the background"
             linkUrl="https://www.space.com/"
             />
             <InfoCard
