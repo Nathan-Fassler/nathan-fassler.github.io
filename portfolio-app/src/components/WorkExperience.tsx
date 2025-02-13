@@ -22,7 +22,7 @@ const WorkExperience: React.FC = () => {
         />
         <InfoCard
           title="Best Buy Warehouse"
-          description="I learned the importance of structural operational workflows in improving efficiency."
+          description="I learned the importance of operational workflows in improving efficiency."
           imageUrl={Warehouse}
           linkUrl="https://www.bestbuy.ca/en-ca"
         />

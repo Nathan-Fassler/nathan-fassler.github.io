@@ -4,10 +4,10 @@ import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa"; // Import ico
 
 const Info: React.FC = () => {
   return (
-    <section id="contact" className="py-20 text-center text-glaucous">
+    <section id="contact" className="py-20 text-center">
       <SectionHeader title="Contact" />
       
-      <div className="flex justify-center space-x-8 text-lg">
+      <div className="flex justify-center space-x-8 text-lg text-glaucous">
         {/* Email */}
         <a href="nbfassler@gmail.com" className="flex items-center space-x-2 hover:underline">
           <FaEnvelope className="text-2xl" />
