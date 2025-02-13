@@ -9,9 +9,9 @@ const Info: React.FC = () => {
       
       <div className="flex justify-center space-x-8 text-lg text-glaucous">
         {/* Email */}
-        <a href="nbfassler@gmail.com" className="flex items-center space-x-2 hover:underline">
+        <a href="mailto:nbfassler@gmail.com" className="flex items-center space-x-2 hover:underline">
           <FaEnvelope className="text-2xl" />
-          <span>Email</span>
+          <span>nbfassler@gmail.com</span>
         </a>
 
         {/* LinkedIn */}
