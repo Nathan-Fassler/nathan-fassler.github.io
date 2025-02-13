@@ -3,7 +3,7 @@ import React from "react";
 const About: React.FC = () => {
   return (
     <section id="about" className="pt-40 pb-10 text-center max-w-4xl mx-auto">
-      <h1 className="text-4xl font-bold text-blue-600 mb-4">
+      <h1 className="text-4xl font-bold text-blue-600 mb-4 font-['Anonymous_Pro']">
         Hi, my name is Nathan Fassler.
       </h1>
       <p className="text-lg py-5 text-gray-700 leading-relaxed">
