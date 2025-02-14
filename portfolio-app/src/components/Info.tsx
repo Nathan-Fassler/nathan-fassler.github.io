@@ -7,7 +7,7 @@ const Info: React.FC = () => {
     <section id="contact" className="py-20 text-center">
       <SectionHeader title="Contact" />
       
-      <div className="flex justify-center space-x-8 text-lg text-glaucous">
+      <div className="flex justify-center space-x-8 text-lg text-gunmetal">
         {/* Email */}
         <a href="mailto:nbfassler@gmail.com" className="flex items-center space-x-2 hover:underline">
           <FaEnvelope className="text-2xl" />
